@@ -1,12 +1,9 @@
-import Image from "next/image";
+import Internet from "@/components/internet";
 
 export default function Home() {
   return (
     <div>
-
-        <div>
-
-        <h1>
-          How does the internet work?
-        </h1>
-          <p>📡 Фундаментальное о
+      <Internet/>
+    </div>
+  );
+}
