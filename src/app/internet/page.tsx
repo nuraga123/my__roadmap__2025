@@ -3,16 +3,12 @@
 import React from "react";
 
 export default function Internet() {
-    const [show, setShow] = React.useState(false);
-  
-    return (
+  return (
     <div className=" bg-gray-50 text-gray-800 flex items-center justify-center py-10 px-4">
-      <div onClick={() => setShow(!show)}  className="cursor-pointer max-w-4xl bg-white shadow-lg rounded-2xl p-8 space-y-6">
+      <div className="max-w-4xl bg-white shadow-lg p-8 space-y-6">
         <h1 className="text-3xl font-bold text-center text-blue-600">
           🌐 How does the Internet work?
         </h1>
-
-        {show && <>
 
         <p className="text-lg leading-relaxed">
           📡 <span className="font-semibold">Фундаментальное объяснение:</span> Интернет — это
@@ -113,9 +109,7 @@ export default function Internet() {
         <p className="mt-6 text-center text-lg font-semibold text-gray-700">
           💡 В итоге: Интернет — это сочетание инфраструктуры, адресации, маршрутизации и протоколов,
           позволяющее компьютерам по всему миру обмениваться данными.
-            </p>
-        </>
-        }
+        </p>
       </div>
     </div>
   );
