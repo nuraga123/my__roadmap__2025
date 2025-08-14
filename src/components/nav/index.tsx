@@ -11,6 +11,7 @@ export default function Navbar({
   const routers = [
     { path: "/internet", name: "Интернет" },
     { path: "/http-history", name: "История HTTP" },
+    { path: "/domain", name: "DNS" },
   ];
 
   return (
