@@ -1,7 +1,5 @@
 "use client"
 import { useState } from "react";
-
-
 import Navbar from "@/components/nav";
 
 export default function MyRootLayout({
